@@ -1,0 +1,36 @@
+{
+  "name": "backend-skin-cancerr",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/app/index.js",
+    "dev": "nodemon src/app/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deisyadzakiyyah09/backend-skin-cancer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deisyadzakiyyah09/backend-skin-cancer/issues"
+  },
+  "homepage": "https://github.com/deisyadzakiyyah09/backend-skin-cancer#readme",
+  "dependencies": {
+    "@google-cloud/firestore": "^7.11.0",
+    "@hapi/hapi": "^21.3.9",
+    "@hapi/inert": "^7.1.0",
+    "@hapi/vision": "^7.0.3",
+    "@tensorflow/tfjs-node": "^4.22.0",
+    "dotenv": "^16.4.7",
+    "express": "^4.17.1",
+    "formidable": "^3.5.2",
+    "winston": "^3.17.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
